@@ -1,0 +1,5 @@
+frase = input("Dame una frase, y te calculo cuanto tardarias diciendolo: ")
+palabras_separadas = frase.split(" ")
+cantidad_de_palabras = len(palabras_separadas)
+print(f'Dijiste {cantidad_de_palabras} palabras, y tardarias {cantidad_de_palabras/2} segundos decirlo')
+print(f' y dalto tardaria {cantidad_de_palabras*100//2*1.3 / 100} segundos decirlo')
